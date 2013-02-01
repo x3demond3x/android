@@ -21,6 +21,7 @@
   </project>
 
   <project path="android" name="CM10DNA/android" />
+  <project path="prebuilt/linux-x86/toolchain/linaro" name="mbobino/android-linaro" revision="master" />
   <project path="device/htc/dlx" name="Flyhalf205/android_device_htc_dlx" />
   <project path="kernel/htc/dlx-3.4" name="Flyhalf205/android_kernel_htc_dlx" />
   <project path="vendor/htc/dlx" name="Flyhalf205/android_vendor_htc_dlx" />
