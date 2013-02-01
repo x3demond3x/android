@@ -14,14 +14,17 @@
   <default revision="refs/heads/jellybean"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="6" />
 
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="CM10DNA/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
-
+  <project path="android" name="CM10DNA/android" />
+  <project path="device/htc/dlx" name="Flyhalf205/android_device_htc_dlx" />
+  <project path="kernel/htc/dlx-3.4" name="Flyhalf205/android_kernel_htc_dlx" />
+  <project path="vendor/htc/dlx" name="Flyhalf205/android_vendor_htc_dlx" />
+  <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
