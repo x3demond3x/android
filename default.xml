@@ -23,7 +23,7 @@
   <project path="android" name="x3demond3x/android" />
   <project path="prebuilt/linux-x86/toolchain/linaro" name="mbobino/android-linaro" revision="master" />
   <project path="device/htc/dlx" name="x3demond3x/android_device_htc_dlx" />
-  <project path="kernel/htc/dlx-3.4" name="x3demond3x/android_kernel_htc_monarudo" />
+  <project path="kernel/htc/dlx-3.4" name="x3demond3x/android_kernel_monarudo" />
   <project path="vendor/htc/dlx" name="x3demond3x/android_vendor_htc_dlx" />
   <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
