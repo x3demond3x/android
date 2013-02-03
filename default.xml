@@ -16,15 +16,15 @@
            sync-c="true"
            sync-j="6" />
 
-  <project path="build" name="CM10DNA/android_build">
+  <project path="build" name="x3demond3x/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CM10DNA/android" />
+  <project path="android" name="x3demond3x/android" />
   <project path="prebuilt/linux-x86/toolchain/linaro" name="mbobino/android-linaro" revision="master" />
-  <project path="device/htc/dlx" name="CM10DNA/android_device_htc_dlx" />
-  <project path="kernel/htc/dlx-3.4" name="CM10DNA/android_kernel_htc_dlx" />
-  <project path="vendor/htc/dlx" name="CM10DNA/android_vendor_htc_dlx" />
+  <project path="device/htc/dlx" name="x3demond3x/android_device_htc_dlx" />
+  <project path="kernel/htc/dlx-3.4" name="x3demond3x/android_kernel_htc_dlx" />
+  <project path="vendor/htc/dlx" name="x3demond3x/android_vendor_htc_dlx" />
   <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" />
   <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
