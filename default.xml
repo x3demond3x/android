@@ -24,7 +24,7 @@
   <project path="prebuilt/linux-x86/toolchain/linaro" name="mbobino/android-linaro" revision="master" />
   <project path="device/htc/dlx" name="x3demond3x/android_device_htc_dlx" />
   <project path="kernel/htc/dlx-3.4" name="x3demond3x/android_kernel_monarudo" />
-  <project path="vendor/htc/dlx" name="x3demond3x/proprietary_vendor_htc_dlx" />
+  <project path="vendor/htc/dlx" name="x3demond3x/proprietary_vendor_dlx" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
